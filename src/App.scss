@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-size: cover;
+    background-position: center;
+    background-color: #f2eaf4;
+
+}
+
+.App {
+    text-align: center;
+    margin-top: 60px;
+    border: 1px solid rgb(233, 209, 209);
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 60px;
+    -webkit-box-shadow: 8px 4px 12px 3px rgba(145, 64, 145, 0.47);
+    box-shadow: 8px 4px 12px 3px rgba(145, 64, 145, 0.47);
+    background: #EB849E;
+    background: -moz-linear-gradient(left, #EB849E 0%, #D66DA8 50%, #D68DA5 100%);
+    background: -webkit-linear-gradient(left, #EB849E 0%, #D66DA8 50%, #D68DA5 100%);
+    background: linear-gradient(to right, #EB849E 0%, #D66DA8 50%, #D68DA5 100%);
+
+    .container {
+        margin-top: 20px;
+
+        .status {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+    }
+
+    .taskList {
+        border: 1px solid hsl(311, 25%, 87%);
+        border-radius: 5px;
+        width: 900px;
+        margin-left: 130px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        background-color: hsl(311, 25%, 87%);
+        -webkit-box-shadow: 5px 5px 9px 0px #CFA3AF;
+        box-shadow: 5px 5px 9px 0px #CFA3AF;
+
+        .bodyItem {
+            border: 1px solid rgb(61, 88, 222);
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 25px;
+            display: flex;
+            justify-content: space-between;
+            width: 850px;
+            border-radius: 5px;
+
+            .item-list {
+                display: flex;
+                margin-left: 10px;
+                margin-top: 5px;
+
+                .check-box {
+                    width: 20px;
+                    height: 20px;
+                    margin-top: 15px;
+                }
+
+                .todo-item {
+                    margin-left: 20px;
+
+                }
+            }
+
+            .icon {
+                margin-top: 20px;
+                letter-spacing: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
